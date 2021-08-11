@@ -18,7 +18,11 @@ python = "^3.9"
 
 [tool.poetry.dependencies]
 python = "^3.8"
+<<<<<<< HEAD
 >>>>>>> 6018afa3550fce94838c58d9cc74745d779221fc
+=======
+prompt = "^0.4.1"
+>>>>>>> c7e8be6b6824cc74f5c0790eb979ce25bb8aae3c
 
 [tool.poetry.dev-dependencies]
 
