@@ -1,11 +1,15 @@
 #! /usr/bin/env python3
 
 import sys
+
+
 sys.path.append('../')
 from cli import welcome_user
 
 
-def main ():
+def main():
+
+
     welcome_user()
 
 if __name__ == '__main__':
