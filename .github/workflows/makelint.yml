@@ -1,8 +1,11 @@
-name: lint
-on: push
+name: Lint Code Base
+on:
+  push:
+    branches-ignore:
+      - 'master'
 jobs:
-  my-job:
+  linter:
     runs-on: ubuntu-latest
     steps:
-      - name: make_lint
-        run: poetry run flake8 brain_games
+        - uses: actions/checkout@v2
+        - uses: docker://github/super-linter:v2.1.0
