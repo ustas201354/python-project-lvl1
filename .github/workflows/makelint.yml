@@ -1,8 +1,11 @@
-name: hello-world
+name: install_python
 on: push
 jobs:
   my-job:
     runs-on: ubuntu-latest
     steps:
-      - name: my-step
-        run: echo "Hello World!"
+      - name: my_python
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
