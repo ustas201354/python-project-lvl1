@@ -1,7 +1,5 @@
 #! /usr/bin/env python3
-import sys
-sys.path.append('../')
-from cli import welcome_user
+from brain_games.cli import welcome_user
 
 
 def main():
