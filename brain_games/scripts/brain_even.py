@@ -1,20 +1,26 @@
 #! /usr/bin/env python3
 from brain_games.cli import welcome_user
-<<<<<<< HEAD
-=======
 from random import randint
->>>>>>> d5ddda2c73f511c39b4b3c976c59ca51d10af8df
 
 
 def main():
     welcome_user()
+    b = randint(0,9)
+    y = ''
+    n = ''
+    if b % 2 == 0:
+        print ('Even number')
+        y == 'yes'
+    else:
+        print ('Uneven number')
+        n == 'no'
+
     print ('Answer "yes" if the number is even, otherwise answer "no".')
-<<<<<<< HEAD
-=======
-    print ('Question: ', randint(0,9))
+    print ('Question: ', b)
     a = input ('Your answer: ' )
-    print (a)
->>>>>>> d5ddda2c73f511c39b4b3c976c59ca51d10af8df
+
+    if a == y or a == n:
+        print ('Congratulations!!!')
 
 
 if __name__ == '__main__':
