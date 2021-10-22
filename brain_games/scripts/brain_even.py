@@ -4,34 +4,27 @@ from random import randint
 
 
 def main():
-    welcome_user()
+    name =  welcome_user()
     print ('Answer "yes" if the number is even, otherwise answer "no".')
    
     i = 3
     while i > 0:
         i = i-1
-        print ('i = ', i)
-    
-
 
         b = randint(0,1000)
-        y = ''
-        n = ''
+        y = ''      
         if b % 2 == 0:
-            print ('Even number')
             y = 'yes'
-            print (y)
         else:
-            print ('Uneven number')
-            n = 'no'
-            print (n)
-
+            y = 'no'
+            
         print ('Question: ', b)
         a = input ('Your answer: ' )
-        if a == y or a == n:
+        if a == y:
             print ('Congratulations!!!')
         else:
-            print ('Unncorrect input, print yes or no')
+            print ( a , 'is wrong answer ;(. Correct answer was', y,
+                    'Lets try again', name)
 
 
 if __name__ == '__main__':
