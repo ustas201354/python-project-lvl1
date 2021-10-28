@@ -19,3 +19,6 @@ lint:
 
 brain-even:
 	poetry run brain-even
+
+calc:
+	poetry run calc
