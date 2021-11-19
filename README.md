@@ -5,4 +5,8 @@
 [![Action Status](https://github.com/ustas201354/python-project-lvl1/workflows/linter/badge.svg)](https://github.com/ustas201354/python-project-lvl1/actions)
 
 # To see the result of the game 'Calc' go to the link bellow
-https://asciinema.org/a/XgsCsdDzjNBmNYCOPLaL8X9eE
+https://asciinema.org/a/XgsCsdDzjNBmNYCOPLaL8X9e
+
+
+# To see the result of the game 'Brain-gcd' go to the link bellow
+https://asciinema.org/a/3slV4TnCR86l141wCBCqPySq2

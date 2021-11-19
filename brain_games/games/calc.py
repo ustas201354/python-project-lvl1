@@ -9,8 +9,8 @@ def main():
         i = i - 1
 
     # preparing example
-        a = randint (0,100)
-        b = randint (0,100)
+        a = randint (0,10)
+        b = randint (0,10)
 
         #choose the sign
         lst = ['+','-','*']
