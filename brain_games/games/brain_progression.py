@@ -11,12 +11,9 @@ def main():
 
     # preparing example
         q = []
-        q = def_func.ran_number()
+        q = def_func.progression()
 
-        def_func.hello_nod()
-        print ('{}'.format(q[0]), '{}'.format(q[1]))
-
-        rigth_an = def_func.gcd(q[0],q[1])
+        rigth_an = q[0]
 
         answer = def_func.answer()
 

@@ -10,3 +10,6 @@ https://asciinema.org/a/XgsCsdDzjNBmNYCOPLaL8X9e
 
 # To see the result of the game 'Brain-gcd' go to the link bellow
 https://asciinema.org/a/3slV4TnCR86l141wCBCqPySq2
+
+# To see the result of the game 'Brain-progression' go to the link bellow
+https://asciinema.org/a/OU2buUpW7s0XUsDiB0T0L1fja
